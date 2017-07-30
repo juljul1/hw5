@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	width: 100px;
+	height: 100px;
+	float: left;
+	border: 1px solid;
+}
+.wrap{
+	width: 410px;
+	height: 410px;
+	border: 0;
+}
