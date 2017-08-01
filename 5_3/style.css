@@ -2,14 +2,16 @@
 	margin: 0;
 	padding: 0;
 }
-div{
-	width: 100px;
-	height: 100px;
-	float: left;
-	border: 1px solid;
+.parent {
+  width: 440px;
+  min-height: 340px;
+  background: #FF6600;
+  clear: both;
 }
-.wrap{
-	width: 410px;
-	height: 410px;
-	border: 0;
+.rows {
+  width: 100px;
+  height: 100px;
+  background: #00F1FF;
+  margin: 5px;
+  float: left;
 }

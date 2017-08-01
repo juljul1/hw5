@@ -1,0 +1,35 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div.wrap{
+	margin: 5px;
+	width: 520px;
+	height: 450px;
+	background-color: #80CDC6;
+}
+img{
+	position: absolute;
+}
+img.world{
+	width: 520px;
+	top: 130px;
+}
+img.clouds{
+	margin-top: -25px;
+	margin-left: 210px;
+	top: 0;
+	width: 300px;
+	height: 150px;
+}
+img.water{
+	width: 520px;
+	height: 100px;
+	top: 385px;
+}
+img.ship{
+	height: 220px;
+	width: 120px;
+	top: 255px;
+	left: 18px;
+}

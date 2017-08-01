@@ -2,17 +2,16 @@
 	margin: 0;
 	padding: 0;
 }
-div{
-	width: 100px;
-	height: 100px;
-	float: left;
+.parent {
+  width: 340px;
+  min-height: 110px;
+  background: #FF6600;
+  clear: both;
 }
-.blue{
-	background-color: blue;
-}
-.red{
-	background-color: red;
-}
-.yel{
-	background-color: yellow;
+.rows {
+  width: 100px;
+  height: 100px;
+  background: #00F1FF;
+  margin: 5px;
+  float: left;
 }
