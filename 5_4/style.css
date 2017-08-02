@@ -20,12 +20,16 @@ footer{
 
 div.wrap{
 	width: 98%;
-	height: 60%;
 	border: 1px solid;
+}
+.clearfix:after {
+  content: " ";
+  clear: both;
+  display: table;
 }
 .main{
 	width: 63%;
-	height: 95%;
+	height: 350px;
 	float: left;
 	padding: 5px;
 	margin-bottom: 5px;
@@ -34,7 +38,7 @@ div.wrap{
 }
 .sidebar{
 	width: 33%;
-	height: 95%;
+	height: 350px;
 	padding: 5px;
 	margin-bottom: 5px;
 	float: right;
