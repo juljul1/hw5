@@ -1,66 +1,109 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	border: 0px;
+	outline: 0px;
+} 
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
 }
-.wrap{
-	
+
+.services::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.bot{
+	display: block;
+	width: 100%;
+	height: 35px;
+	margin: auto;
+	padding-top: 5px;
+	background-color: #cf5b4e;
+	text-align: center;
+	border-radius: 10px;
+	color:#ffffff;
+	font-size: 15px;
+	margin-bottom: -20px;
+}
+
+.wrapper{
 	width: 650px;
-	margin-left: auto;
-	margin-right: auto;
-	font-family: Tahoma, Arial, sans-serif;
-	line-height: 150%;
-	font-size: large;
+	margin: auto;
+	padding: 30px;
+	line-height: 180%;
+	background: #d1d1d1;
 }
+
+.wrap {
+	background: #fff;
+	padding: 50px;
+}
+
+.banner {
+  	display: block;
+  	width: 100%;
+}
+
 h3{
 	text-align: center;
-	padding: 40px 50px 50px;
+	font-size: 22px;
+	font-weight: normal;
 }
+
+p {
+	margin: 20px 0;
+}
+
 span, a{
 	font-weight: bold;
 }
-img{
-	width: 650px;
-	height: 160px;
+
+.services {
+    display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
 }
-div.left{
-	margin-left: 0px; 
-	float: left;
+
+.services > div {
+	position: relative;
+	width: 47%;
+	margin-bottom: 30px;
+	padding-bottom: 40px;
 }
-div.rigth{
-	margin-left: 50px; 
-	float: left;
-	margin-bottom: 20px;
+
+.services div:first-child,
+.services div:nth-child(3n),
+.services div:nth-child(3n + 1) {
+	margin-right: auto;
 }
-div.l{
-	width: 300px;
+
+.services div:nth-child(n + 3) {
+	width: 30%;
 }
-div.s{
-	width: 175px;
-}
-div.bot{
-	background-color: #CF5B4E;
-	text-align: center;
-	vertical-align: middle;
-	margin-top: 30px;
-	color: #fff;
-	height: 35px;
+
+.services div img {
 	width: 100%;
-	border-radius: 10px;
 }
-p.left{
-	width: 200px;
+
+.services div button {
+	width: 100%;
+  	position: absolute;
+    bottom: 0;
 }
-img.fl_line{
-	margin-top: 0px;
-	width: 300px;
-	height: 250px;
+
+.italic {
+    font-style: italic;
 }
-img.f_line{
-	margin-top: 0px;
-	width: 200px;
-	height: 300px;
+
+.conclusion{
+	margin-top: -40px;
 }
 footer{
-	width: 100%;
-	height: 17%;
+	padding-top: 60px;
+	text-align: center;
+	color: white;
+	font-size: 14px;
 }
